@@ -10,7 +10,7 @@
             <?php
                 echo "<h1>¡Hola, Javi te da la bienvenida!</h1>";
 
-                $conn = mysqli_connect('127.0.0.1', 'root', 'test', "juegosDB");
+                $conn = mysqli_connect('localhost', 'root', 'test', "juegosDB");
 
                 $query = 'SELECT * From Person';
                 $result = mysqli_query($conn, $query);
